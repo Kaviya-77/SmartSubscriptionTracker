@@ -11,7 +11,6 @@ This system allows users to register, login, and manage their subscriptions, aut
 - Set subscription amount and expiry date
 - Email notifications 30 days before expiry
 - Clean and responsive Bootstrap-based UI
-- Admin panel (optional) for managing all users’ subscriptions
 - Secure authentication & authorization using Spring Security + JWT
 
 ## 🧭 Tech Stack
@@ -31,7 +30,7 @@ This system allows users to register, login, and manage their subscriptions, aut
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/SubscriptionReminderSystem.git
+git clone https://github.com/Kaviya-77/SmartSubscriptionTracker
 cd SubscriptionReminderSystem
 2️⃣ Create MySQL database
 CREATE DATABASE subscription_db;
@@ -63,11 +62,6 @@ subscription.expiry-alert-days=30
 mvn clean spring-boot:run
 Or run the main application class from your IDE.
 
-🔐 Authentication & Roles
-ROLE_USER — Can manage only their subscriptions
-
-ROLE_ADMIN — Full access (add/edit/delete subscriptions for all users)
-
 ✅ Sample Test Scenarios
 Register a new user → account created successfully
 
@@ -76,8 +70,6 @@ Add a subscription → appears in user dashboard
 Update expiry date → email notification scheduled
 
 Subscription within 30 days → email alert sent
-
-Login as admin → manage all users’ subscriptions
 
 📸 Screenshots
 
@@ -90,6 +82,7 @@ Login as admin → manage all users’ subscriptions
 <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/3b29d64f-e5c4-4a43-b57e-9d00a577f765" />
 
 🎬 Demo
+
 https://drive.google.com/file/d/12PXpYEWKaqjHpt2jUMapXLr4G12O2fiA/view?usp=sharing
 
 
