@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h2>All Subscriptions</h2>
+
+<table border="1">
+<tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Expiry Date</th>
+    <th>Amount</th>
+</tr>
+
+<tr th:each="sub : ${subscriptions}">
+    <td th:text="${sub.id}"></td>
+    <td th:text="${sub.name}"></td>
+    <td th:text="${sub.expiryDate}"></td>
+    <td th:text="${sub.amount}"></td>
+</tr>
+
+</table>
+
+</body>
+</html>
