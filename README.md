@@ -1,4 +1,4 @@
-⏰ Subscription Reminder System
+#**⏰ Subscription Reminder System**
 
 
 A secure web-based Subscription Reminder System built with Spring Boot, Thymeleaf, MySQL, and JWT authentication.
@@ -6,7 +6,7 @@ A secure web-based Subscription Reminder System built with Spring Boot, Thymelea
 This system allows users to register, login, and manage their subscriptions, automatically sending email reminders before any subscription is about to expire.
 It helps prevent unexpected auto-debits and keeps users informed about their recurring payments.
 
-🚀 Features
+**#🚀 Features**
 
 User registration and login with secure JWT authentication
 
@@ -92,10 +92,15 @@ Login as admin → manage all users’ subscriptions
 
 📸 Screenshots
 
-(Replace with actual screenshots from your app)
-
-
+<img width="940" height="423" alt="image" src="https://github.com/user-attachments/assets/25a24d5e-30a1-4d1d-bffd-400f6a05bcbf" />
+<img width="940" height="426" alt="image" src="https://github.com/user-attachments/assets/a5f94090-d260-4b16-8ec7-b3b536ff1e2f" />
+<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/ed722ec0-b9e2-4f55-bee7-ee9f76d1c954" />
+<img width="940" height="426" alt="image" src="https://github.com/user-attachments/assets/f7c45701-c366-415b-89de-3c3ab40ecdca" />
+<img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/8c28b8ec-bdbb-4d18-89a9-6574b688e7ac" />
+<img width="940" height="359" alt="image" src="https://github.com/user-attachments/assets/d53c2c1b-400e-4a2b-a676-7aa79809d733" />
+<img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/3b29d64f-e5c4-4a43-b57e-9d00a577f765" />
 
 🎬 Demo
+https://drive.google.com/file/d/12PXpYEWKaqjHpt2jUMapXLr4G12O2fiA/view?usp=sharing
 
-(Replace with your actual demo link)
+
