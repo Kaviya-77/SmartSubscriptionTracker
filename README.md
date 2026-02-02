@@ -31,9 +31,12 @@ This system allows users to register, login, and manage their subscriptions, aut
 ### 1️⃣ Clone the repository
 
 git clone https://github.com/Kaviya-77/SmartSubscriptionTracker
+
 cd SubscriptionReminderSystem
+
 2️⃣ Create MySQL database
 CREATE DATABASE subscription_db;
+
 3️⃣ Configure application.properties
 # MySQL
 spring.datasource.url=jdbc:mysql://localhost:3306/subscription_db?useSSL=false&serverTimezone=UTC
